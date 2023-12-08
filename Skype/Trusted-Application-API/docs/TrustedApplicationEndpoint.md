@@ -1,5 +1,6 @@
 ---
 title: Set up a Trusted Application Endpoint
+description: Learn how to set up a Trusted Application Endpoint using PowerShell cmdlets on Skype for Business with this comprehensive guide from Microsoft.
 ---
 # Set up a Trusted Application Endpoint 
 
