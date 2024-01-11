@@ -2,6 +2,7 @@
 title: Skype for Business SDN Interface
  
 ms.assetid: 2cc9aa1a-a180-4887-8e87-93450ab57106
+description: Explore Microsoft's Skype for Business SDN Interface. Learn how to install, configure, and optimize network traffic for quality service with our guide.
 ---
 
 
