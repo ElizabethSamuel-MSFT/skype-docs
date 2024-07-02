@@ -6,14 +6,7 @@ ms.date: 03/29/2022
 
 # Skype Web SDK
 
- _**Applies to:** Skype for Business 2015_, _Skype for Business Online_
-
-The Skype Developer Platform for Web ("Skype Web SDK") is a set of JavaScript Web APIs, and HTML controls that enable you to build web experiences that seamlessly integrate a wide variety of real-time collaboration models leveraging Skype for Business services and the larger Skype network. It supports multiple core collaboration services like presence, chat, audio, and video, enabling web experiences across a broad spectrum of users, platforms, and devices.
-
-The Skype Web SDK documentation consists of the following sections:
-
-- [Skype Web SDK general reference](GeneralReference.md)
-- [Skype Web SDK API reference](http://officedev.github.io/skype-docs/Skype/WebSDK/model/api/modules/jcafe.html)
+We will be retiring the Skype Developer Platform for Web ("Skype Web SDK") on September 30, 2024. After that time the SDK will no longer be available for download. Instead, we recommend [Azure Communication Services](https://learn.microsoft.com/en-us/azure/communication-services/concepts/sdk-options), where we will continue to invest our development resources.
 
 ## Skype for Business Online Retirement
 
