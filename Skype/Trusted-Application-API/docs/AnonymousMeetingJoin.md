@@ -9,11 +9,7 @@ Anonymous meeting join is a powerful feature of the Skype Developer Platform tha
 The anonymous user can join into Skype meetings by using a meeting's URI.
 An online meeting can be scheduled using the Skype for Business Client or Outlook, or even programmatically using UCWA or the **Trusted Application API**.  The meeting's URL is passed to the service application, which calls the Trusted Application endpoint and enables anonymous users to join the online meeting.
 
-You'll need to use a **Trusted Application API**-enabled service application to get the Discover Url and anonymous meeting token. Your mobile app will call the service application to get these resources before joining a meeting. To learn more about this, see:
-
-- [Use the App SDK and the Trusted Application API to join an Online meeting - Android](../../AppSDK/HowToJoinOnlineMeeting_Android.md)
-- [Use the App SDK and the Trusted Application API to join an Online meeting - iOS](../../AppSDK/HowToJoinOnlineMeeting_iOS.md)
-- [Implementing a Anonymous Client with the Skype Web SDK](ImplementingAnonymousClientWithSkypeWebSDK.md)
+You'll need to use a **Trusted Application API**-enabled service application to get the Discover Url and anonymous meeting token. Your mobile app will call the service application to get these resources before joining a meeting.
 
 ## Prerequisites
 
