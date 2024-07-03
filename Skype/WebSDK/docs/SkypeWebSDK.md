@@ -10,20 +10,18 @@ We will be retiring the Skype Developer Platform for Web ("Skype Web SDK") on Se
 
 ## Skype for Business Online Retirement
 
-[Skype for Business (SfB) Online retired in July 2021](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/skype-for-business-online-to-be-retired-in-2021/ba-p/777833). The retirement of SfB Online reduced the market of Skype tenants for the SfB Web SDK, and many SfB organizations are migrating to Teams.
-
 Azure Communication Services (ACS) is a cloud-based communications service that lets you add voice, video, chat, and telephony to your apps. Azure communication services allow developers to extend their applications with Teams interoperability, where users [communicate as guests](/azure/communication-services/concepts/join-teams-meeting) (Teams anonymous users) or [communicate as Teams users](/azure/communication-services/concepts/teams-endpoint). We encourage implementers of the SfB Web SDK to transition to Azure Communication Services and Microsoft Graph APIs. Microsoft Graph APIs control behavior specifically in the M365 ecosystems, such as presence. It also provides chat support for Teams users.
 
 The table below maps SfB Web SDK sub-systems to Graph and ACS capabilities.
 
 | SfB SDK System | Description  | Alternative   |
 |----------|-----------|------------|
-| [Presence](./presence.md) | Use presence information to help users decide whether and how they should person other users. | [Graph Presence APIs](/graph/api/resources/presence)  |
-| [Local user](./localuser.md) | Use the **mePerson** object to represent the currently signed-in user. | [Graph User APIs](/graph/api/user-get)  |
-| [Conversations](./conversations.md) | Use conversation services to determine the ways for communication between persons. | [ACS Calling SDK for voice/video](/azure/communication-services/concepts/sdk-options) and [Graph for chat](/graph/api/resources/chat) |
-| [Listening for and generating presence events](./presenceevents.md) | Use events to get a person's current presence. | [Graph Presence APIs](/graph/api/resources/presence.md)  |
-| [Persons](./persons.md) | Use person objects to represent individual users. | [Graph User APIs](/graph/api/user-get)  |
-| [Devices](./devices.md) | Select Cameras, Microphones, and Speakers to use for audio and video conversations. | [ACS Calling SDK](/azure/communication-services/how-tos/calling-sdk/manage-video#device-management.md)  |
+| Presence | Use presence information to help users decide whether and how they should person other users. | [Graph Presence APIs](/graph/api/resources/presence)  |
+| Local user | Use the **mePerson** object to represent the currently signed-in user. | [Graph User APIs](/graph/api/user-get)  |
+| Conversations | Use conversation services to determine the ways for communication between persons. | [ACS Calling SDK for voice/video](/azure/communication-services/concepts/sdk-options) and [Graph for chat](/graph/api/resources/chat) |
+| Listening for and generating presence events | Use events to get a person's current presence. | [Graph Presence APIs](/graph/api/resources/presence.md)  |
+| Persons | Use person objects to represent individual users. | [Graph User APIs](/graph/api/user-get)  |
+| Devices | Select Cameras, Microphones, and Speakers to use for audio and video conversations. | [ACS Calling SDK](/azure/communication-services/how-tos/calling-sdk/manage-video#device-management.md)  |
 
 Azure Communication Service SDKs are designed with a substantially different API model than SfB Web, and we do not host the SDK on a content delivery network (CDN). Your web application hosts the SDK, and you have the choice of using one of several SDKs listed below. The core Calling and Chat SDKs have essentially no GUI and allow for robust customization of the end-user experience. But for most SfB Web SDK implementations, using the open-source composites is recommended to reduce the amount of UI development required by replacing SfB.
 
