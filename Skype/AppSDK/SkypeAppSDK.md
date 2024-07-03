@@ -1,5 +1,5 @@
 ---
-title: Skype for Business App SDK (elementText)
+title: Skype for Business App SDK
 description: Introduction to the Skype for Business App SDK
 ms.date: 07/03/2024
 ---
@@ -7,7 +7,7 @@ ms.date: 07/03/2024
 
  **Last modified:** July 3, 2024
 
-The Skype for Business App SDK has been retired and is not available for download and use. Instead, we recommend [Azure Communication Services](https://learn.microsoft.com/en-us/azure/communication-services/concepts/sdk-options), where we will continue to invest our development resources.
+The Skype for Business App SDK has been retired and is not available for download and use. Instead, we recommend [Azure Communication Services](/azure/communication-services/concepts/sdk-options), where we will continue to invest our development resources.
 
 ## Migrating to Azure Communication Services
 

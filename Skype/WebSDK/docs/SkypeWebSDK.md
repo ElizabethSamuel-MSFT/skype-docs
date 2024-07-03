@@ -6,7 +6,7 @@ ms.date: 03/29/2022
 
 # Skype Web SDK
 
-We will be retiring the Skype Developer Platform for Web ("Skype Web SDK") on September 30, 2024. After that time the SDK will no longer be available for download. Instead, we recommend [Azure Communication Services](https://learn.microsoft.com/en-us/azure/communication-services/concepts/sdk-options), where we will continue to invest our development resources.
+We will be retiring the Skype Developer Platform for Web ("Skype Web SDK") on September 30, 2024. After that time the SDK will no longer be available for download. Instead, we recommend [Azure Communication Services](/azure/communication-services/concepts/sdk-options), where we will continue to invest our development resources.
 
 ## Skype for Business Online Retirement
 
