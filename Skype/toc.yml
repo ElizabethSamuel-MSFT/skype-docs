@@ -36,14 +36,6 @@
       items:
       - name: Overview
         href: WebSDK/docs/SkypeWebSDK.md
-      - name: Release notes
-        items:
-        - name: Overview
-          href: WebSDK/docs/ReleaseNotes.md      
-        - name: Skype Web SDK version update notifications
-          href: WebSDK/docs/SkypeWebSDKVersionUpdateNotifications.md
-      - name: Terms Of Service
-        href: WebSDK/docs/TermsOfService.md
     - name: Skype for Business App SDK
       items:
       - name: Overview
